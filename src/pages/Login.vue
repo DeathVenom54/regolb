@@ -24,6 +24,10 @@
         v-model="password"
       ></q-input>
       <q-btn class="submit" :loading="loading" type="submit" label="log in" />
+      <p class="login-link">
+        Don't have an account?
+        <router-link to="/signup">Sign up</router-link> instead
+      </p>
     </q-form>
   </div>
 </template>

@@ -1,0 +1,1 @@
+wt `; powershell.exe -command "cd E:\GitHub\regolb" `;split-pane -p "Frontend" powershell.exe -command "quasar dev" `; new-tab -p "Backend" `; split-pane -p "Backend" powershell.exe -command "npm run ts" `; split-pane -p "Backend" powershell.exe -command "npm run dev"
